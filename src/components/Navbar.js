@@ -16,7 +16,7 @@ const Navbar = () => {
           </Typography>
           <Box>
             <Button color="inherit" component={Link} to="/">
-              Home
+               Home
             </Button>
             <Button color="inherit" component={Link} to="/recarga">
               Recarga
