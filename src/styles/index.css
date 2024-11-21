@@ -1,0 +1,60 @@
+/* Reseteo básico para mantener la consistencia de estilos en todos los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; /* Color de fondo suave para una apariencia moderna */
+    color: #333; /* Color del texto principal */
+  }
+  
+  /* Estilos para los botones principales */
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007BFF; /* Cambia el color al pasar el mouse */
+  }
+  
+  /* Estilos específicos para contenedores */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Flexbox para organizar contenido */
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card {
+    background: #6d6363;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(41, 39, 39, 0.1);
+    border-radius: 10px;
+  }  
